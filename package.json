@@ -1,0 +1,17 @@
+{
+  "name": "gql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^15.5.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.0.1",
+    "@graphql-codegen/typescript": "2.0.0",
+    "@graphql-codegen/introspection": "2.0.0"
+  },
+  "scripts": {
+    "codegen": "graphql-codegen --config codegen.yml"
+  }
+}
